@@ -17,13 +17,13 @@ public class StartingPage extends Application {
         Parent root = fxmlLoader.load();
 
     // Set the FXML content as the root of the scene
-        Scene scene = new Scene(root, 1440, 1024);
+        Scene scene = new Scene(root, 1080, 768);
 
     // Set the scene to the stage
         stage.setScene(scene);
 
     // Set other stage properties if needed
-        stage.setTitle("Your Title");
+        stage.setTitle("GameShelf");
 
     // Show the stage
         stage.show();
